@@ -31,3 +31,7 @@ class Solution {
         return idx;
     }
 }
+
+// int[] newArray = Arrays.copyOfRange(oldArray, startIndex, endIndex);
+// startIndex是要复制范围的初始索引，包括。
+// endIndex是要复制的范围的最终索引，排它。 (此索引可能位于数组外)
